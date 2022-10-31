@@ -1,0 +1,3 @@
+# Software Design as Architecture
+
+“Software Design as Architecture: Interface Design”, design research project. Based on the analysis of “The Stack: On Software and Sovereignty” by Benjamin H. Bratton and contains quotes from the book. Other research includes the words of Bjarke Ingels, Norman Foster and Rem Koolhaas. By Sofya Tuymedova. First published: September 2020. See also: <a target='_blank' rel='noopener noreferrer' href='https://interactions.acm.org/archive/view/may-june-2008/featurewhat-do-we-mean-by-program1'>“What do we mean by ‘Program’?”</a>
