@@ -1,12 +1,9 @@
 /* CSS Mini Reset */
-
 html, body, div, h4, h6 { margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 a { color: inherit; text-decoration: none; }
 
-
 /* Site Styles */
-
 @font-face {
   font-family: H;
   src:  url('assets/fonts/H.woff') format('woff');
@@ -66,38 +63,28 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
-#stack {
-  position: fixed;
-
-  bottom: 0;
-  left: 0;
-
-  width: auto;
-  height: 100%;
-
-  font-size: 2.6vh;
-  text-align: center;
-  z-index: 3;
-
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  text-transform: uppercase;
-
+.noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
 
-  font-family: FM, Helvetica, Arial, sans-serif;
+#stack {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  font-family: 'FM', Helvetica, Arial, sans-serif;
+  font-size: 2.5vh;
+  text-align: center;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 @supports (-webkit-touch-callout: none) {
   body {
